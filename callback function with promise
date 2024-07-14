@@ -1,0 +1,16 @@
+function savetodb(data){
+    return new Promise((success,failure) =>{
+        let dataspeed = Math.floor(Math.random()*10)+1;
+if (dataspeed>4){
+    success("sucess data was saved ");
+    } else{
+        failure("failure data was rejected");
+    }
+
+    });
+
+
+
+}
+
+savetodb("apna college");
